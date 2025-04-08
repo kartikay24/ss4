@@ -1,7 +1,7 @@
 # @package _global_
 defaults:
   - /pipeline: informer
-  - /model: s4
+  - /model: pSpikeSSM
   - override /dataset: weather
 
 trainer:

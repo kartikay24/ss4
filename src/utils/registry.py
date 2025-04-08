@@ -89,6 +89,7 @@ layer = {
     "performer": "src.models.sequence.attention.linear.Performer",
     "lssl": "src.models.sequence.modules.lssl.LSSL",
     "s4": "src.models.sequence.modules.s4block.S4Block",
+    "pSpikeSSM": "src.models.sequence.modules.s4block_spike.S4Block",    
     "fftconv": "src.models.sequence.kernels.fftconv.FFTConv",
     "s4nd": "src.models.sequence.modules.s4nd.S4ND",
     "mega": "src.models.sequence.modules.mega.MegaBlock",
